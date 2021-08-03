@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: #cecece;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header a{
+    background-color: #cecece;
+    border-style: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: large;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: #444;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #444;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+body{
+    overflow: hidden;
+}
+
+.user_card{
+    width: 250px;
+    height: 250px;
+    background-color: teal;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin: 10px;
+    max-width: fit-content;
+    flex-flow: wrap;
+}
